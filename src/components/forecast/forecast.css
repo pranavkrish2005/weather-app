@@ -1,0 +1,87 @@
+.title {
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px 0px;
+    margin-top: 80px;
+}
+
+
+.daily-item {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1;
+    max-width: 550px;
+    height: auto;
+    padding: 0px 10px;
+    box-shadow: 5px 5px 5px rgb(125, 125, 125);
+}
+
+.small-icon {
+    width: 80px;
+    height:auto;
+}
+
+
+#day-div {
+    display: flex;
+    align-items: center;
+}
+
+.Day {
+    font-weight: 900;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.Temp {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: inherit;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.max {
+    color: rgb(255, 91, 91);
+}
+
+.min {
+    color: rgb(95, 159, 255);
+}
+
+
+.daily-details {
+    margin-bottom: 20px;
+}
+
+.daily-detail-items {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    height: auto;
+    margin: 10px auto;
+    background-color: black;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.detail-value {
+    font-weight: bolder;
+    color: white;
+}
+
+.detail-name {
+    font-weight: bold;
+    color: rgb(200, 200, 200);
+}
